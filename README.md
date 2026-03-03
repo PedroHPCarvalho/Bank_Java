@@ -69,8 +69,6 @@ public class ConnectionFactory {
 **Por que Singleton aqui?**  
 Em projetos reais, instanciar múltiplos gerenciadores de conexão pode ser custoso e gerar inconsistências. O Singleton centraliza esse controle.
 
-> Em ambientes multithread, o padrão correto seria usar **double-checked locking** com `volatile`. Deixado como evolução futura.
-
 ---
 
 ### Factory Method — `Account`
